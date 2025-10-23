@@ -1,5 +1,8 @@
 # netlify.toml
 
+[install]
+	command = "npm install"
+
 [build]
 	command = "npm run build"
 	publish = "dist"
