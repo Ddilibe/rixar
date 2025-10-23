@@ -64,7 +64,7 @@ const services: { title: string; href: string }[] = [
 ];
 
 export function NavigationMenuDemo() {
-    const { focus, setFocus } = useLandingContext();
+    const { focus } = useLandingContext();
     return (
         <NavigationMenu viewport={false}>
             <NavigationMenuList>

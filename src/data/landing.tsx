@@ -1,4 +1,4 @@
-import ReactSVG from "@/assets/react.svg";
+
 import { LuConstruction, } from "react-icons/lu";
 import { FaBuilding } from "react-icons/fa";
 import { MdDomain } from "react-icons/md";

@@ -1,6 +1,6 @@
 import { BadgeInfo, Handshake, type LucideProps } from "lucide-react"
 import { FaGlobeEurope } from "react-icons/fa";
-import { GiChampions, GiPaper, GiWorld } from "react-icons/gi";
+import { GiChampions, GiPaper } from "react-icons/gi";
 import type { IconType } from "react-icons/lib";
 import { LuClock12 } from "react-icons/lu";
 

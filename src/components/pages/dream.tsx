@@ -115,7 +115,8 @@ export function Projects() {
             return;
         }
         if (tag.includes(e)) {
-            setSelect(e)
+            // @ts-ignore
+            setSelect(e) 
             return;
         }
 
