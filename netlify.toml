@@ -1,14 +1,11 @@
 # netlify.toml
-
-[install]
-	command = "npm install"
+# Configuration for React + Vite + TypeScript
 
 [build]
-	command = "npm run build"
-	publish = "dist"
+  command = "npm run build"
+  publish = "dist"
 
 [[redirects]]
-	from = "/*"
-	to = "dist/index.html"
-	status = 200
-	force = false
+  from = "/*"
+  to = "/index.html"
+  status = 200
